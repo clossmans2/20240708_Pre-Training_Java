@@ -2,6 +2,8 @@
 
 Today we covered the topics below:
 
+## Topics
+
 - Basic I/O
   - Scanner
   
@@ -23,3 +25,10 @@ Today we covered the topics below:
   - Scanner vs FileReader
   - BufferedReader & BufferedWriter
     - FileReader & FileWriter
+  - Serialization (concept not coded yet)
+
+## Topics not covered
+
+- Arrays vs ArrayLists vs LinkedLists
+- Serialization
+- Properties files

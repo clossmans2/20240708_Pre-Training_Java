@@ -2,7 +2,7 @@ package com.skillstorm;
 
 import java.util.Arrays;
 
-public class CArrays {
+public class CArraysNotCovered {
 
 	public static void main(String[] args) throws Exception {
 

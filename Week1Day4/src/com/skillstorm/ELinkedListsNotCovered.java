@@ -2,7 +2,7 @@ package com.skillstorm;
 
 import java.util.LinkedList;
 
-public class ELinkedLists {
+public class ELinkedListsNotCovered {
 	
 	public static void main(String[] args) {
 

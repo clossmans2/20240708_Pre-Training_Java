@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class DArrayLists {
+public class DArrayListsNotCovered {
 
 	    public static void main(String[] args) {
 	        /*

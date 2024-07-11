@@ -83,7 +83,7 @@ public class Potato {
 //		System.out.println(potato1);
 		try {
 			potato1.setSize(0);
-		} catch (IllegalArgumentException ebubbles) { // note e is a 
+		} catch (CustomException ebubbles) { // note e is a 
 			System.out.println("Potato is still " + potato1.getSize() + " oz");
 			System.out.println(ebubbles.getMessage());
 		}

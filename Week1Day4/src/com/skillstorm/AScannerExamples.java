@@ -55,6 +55,9 @@ public class AScannerExamples {
 		} else {
 			System.out.println("Sorry, the correct number was " + answer);
 		}
+		////////////////////////////////////////////////////////////////////
+		// TODO create a FileWriter and record the resulsts of each game
+		////////////////////////////////////////////////////////////////////
 		
 		// Try entering in "Ten" instead of 10
 		// What happens? java.util.InputMismatchException

@@ -1,33 +1,25 @@
 # Week 1 Day 4
 
-Today we will be covering the topics below:
+Today we covered the topics below:
 
 - Basic I/O
   - Scanner
   
 - Exception handling
-  - try-catch finally
+  - throwing exceptions in setter methods
+  - try-catch
+    - try-catch multiple exceptions
+    - try-catch-catch
+    - try-catch-finally
+  - throw vs throws
+  - custom exceptions
+    - checked vs unchecked exceptions
+    - catch or specify requirement
   
-- Data structures
-  - Arrays
-  - ArrayLists
-  - LinkedLists
   
 - File I/O
-  - InputStream & OutputStream
-  - FileInputStream & FileOutputStream
-  - FileReader & FileWriter
-  - PrintWriter
-  
-- Try-with resources
-  - Exceptions
-  - try-catch-finally
-  
-- Properties
-  - Classloader.getResourceAsStream
-- Working with CSV Files
-- Serialization
-
-- Design Patterns: 
-  - Singleton & Factory
-  - Coupling and Cohesion
+  - Buffering
+  - Working with file paths
+  - Scanner vs FileReader
+  - BufferedReader & BufferedWriter
+    - FileReader & FileWriter

@@ -8,7 +8,13 @@ import java.util.NoSuchElementException;
 // Single Linked -> Reference to the next node
 // Double Linked -> Reference to next and previous nodes
 // Circular Linked -> Tail points to the head of the list
-
+// Time Complexity
+// Linked Lists (Double, Single):
+//	- Access: O(n)
+//	- Search: O(n)
+//	- Insert: O(1)
+//	- Delete: O(1)
+// Space Complexity O(n)
 public class LinkedListDemo {
 
 	public static void main(String[] args) {

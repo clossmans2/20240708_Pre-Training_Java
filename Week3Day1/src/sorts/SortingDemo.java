@@ -27,6 +27,10 @@ public class SortingDemo {
 
 }
 
+// Time Complexity
+// Quick Sort:
+// Average: O(n log(n)) Worst: O(n^2) 
+// Space Complexity O(log(n))
 class QuickSort {
 	public static void sort(int[] arr, int low, int high) {
 		if (low < high) {
@@ -54,7 +58,10 @@ class QuickSort {
 	}
 }
 
-
+// Time Complexity
+// Merge Sort:
+// Average: O(n log(n)) Worst: O(n log(n)) 
+// Space Complexity O(n)
 class MergeSort {
 	public static void sort(int[] arr, int left, int right) {
 		if(left < right) {

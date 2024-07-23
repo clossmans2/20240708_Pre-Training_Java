@@ -5,6 +5,13 @@ import java.util.LinkedList;
 // Queue: linear data structure that follows the FIFO 
 // (First in, First out)
 // Elements are added to the rear and removed from the front
+//Time Complexity
+//Queue:
+//	- Access: O(n)
+//	- Search: O(n)
+//	- Insert: O(1)
+//	- Delete: O(1)
+//Space Complexity O(n)
 
 public class QueueDemo {
 

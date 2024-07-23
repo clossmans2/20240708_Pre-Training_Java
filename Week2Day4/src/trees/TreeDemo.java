@@ -19,6 +19,14 @@ import java.util.ArrayList;
 // and follow the same rules
 // No duplicate values are allowed
 
+//Time Complexity
+// Binary Search Trees:
+//	- Access: Average: O(log(n)) Worst: O(n) 
+//	- Search: Average: O(log(n)) Worst: O(n) 
+//	- Insert: Average: O(log(n)) Worst: O(n) 
+//	- Delete: Average: O(log(n)) Worst: O(n) 
+//Space Complexity O(n)
+
 public class TreeDemo {
 
 	public static void main(String[] args) {

@@ -12,6 +12,13 @@ import java.util.Objects;
 // Not thread safe (not synchronized)
 // Would technically allow a single null key, and many null values
 // Subclass of AbstractMap
+// Time Complexity
+// Hash Map:
+//	- Access: Average: O(1) Worst: O(n) 
+//	- Search: Average: O(1) Worst: O(n) 
+//	- Insert: Average: O(1) Worst: O(n) 
+//	- Delete: Average: O(1) Worst: O(n) 
+// Space Complexity O(n)
 
 public class HashMapDemo {
 

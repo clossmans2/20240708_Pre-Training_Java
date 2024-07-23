@@ -6,6 +6,12 @@ import java.util.Hashtable;
 // Thread safe (synchronized)
 // No keys or values can be null
 // Subclass of Dictionary
+//Time Complexity
+//Hash Table:
+//	- Search: Average: O(1) Worst: O(n) 
+//	- Insert: Average: O(1) Worst: O(n) 
+//	- Delete: Average: O(1) Worst: O(n) 
+//Space Complexity O(n)
 
 public class HashTableDemo {
 

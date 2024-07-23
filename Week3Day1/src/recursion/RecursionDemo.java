@@ -6,12 +6,12 @@ package recursion;
 public class RecursionDemo {
 
 	public static void main(String[] args) {
-		int number = 5;
-		int result = factorial(number);
+		long number = 33;
+		long result = factorial(number);
 		System.out.println("Factorial of " + number + " is: " + result);
 	}
 	
-	public static int factorial(int n) {
+	public static long factorial(long n) {
 		if (n == 0) {
 			return 1;
 		}

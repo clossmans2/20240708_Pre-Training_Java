@@ -1,9 +1,17 @@
 package data_structures;
 
+import java.util.Stack;
+
 // Stack: linear data structure that follows the LIFO/FILO 
 // (Last in/First Out, or First in, Last out)
 // Elements are added or removed from the top
-import java.util.Stack;
+// Time Complexity
+// Stacks:
+//	- Access: O(n)
+//	- Search: O(n)
+//	- Insert: O(1)
+//	- Delete: O(1)
+// Space Complexity O(n)
 
 public class StackDemo {
 

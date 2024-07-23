@@ -5,6 +5,13 @@ import java.util.Arrays;
 // Array: linear data structure, can hold multiple values in a single variable, contiguous
 // (meaning same memory location), primitive values or objects/reference types
 // ArrayList: dynamic/re-sizeable array, implements List interface, reference types only (Objects)
+// Time Complexity
+// Arrays:
+// 	- Access: O(1)
+//	- Search: O(n)
+//	- Insert: O(n)
+//	- Delete: O(n)
+// Space Complexity O(n)
 
 public class ArrayDemo {
 
@@ -15,6 +22,7 @@ public class ArrayDemo {
 				900, 1000, 1100 };
 		
 		int[] intArray = new int[12];
+		Integer[] intArray2 = new Integer[12];
 		
 		System.arraycopy(numArray, 0, intArray, 0, 11);
 		System.out.println(intArray.toString());

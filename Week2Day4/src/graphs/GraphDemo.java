@@ -55,6 +55,7 @@ class Graph<T> {
 		this.adjacencyList = new HashMap<>();
 	}
 	
+	// O(V + E) O(N + C)
 	public void addNode(T v) {
 		if(!adjacencyList.containsKey(v)) {
 			adjacencyList.put(v, new ArrayList<>());

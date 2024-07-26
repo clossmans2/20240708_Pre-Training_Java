@@ -73,7 +73,7 @@ class DynamicArray {
 	
 	private void resize() {
 		capacity *= 2;
-		array = Arrays.copyOf(array, capacity);
+		array = Arrays.copyOf(array, capacity); // O(2n)
 	}
 	
 	public int get(int index) {

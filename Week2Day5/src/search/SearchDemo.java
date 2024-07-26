@@ -49,7 +49,15 @@ public class SearchDemo {
 	////	   / \   \
 	////	  4   5   6
 	////	 / \ / \ / \ 
-	////	7  8 9 1011 12  
+	////	7  8 9 1011 12
+	// Time complexity
+	// O(Nodes + Connections) [O(V+E)]
+	// For each node, depth search visit all adjacent nodes recursively
+	// Worst case - depth search is going to visit every node and connection in the graph
+	// Space complexity
+	// O(Nodes) [O(V)]
+	// Dependent on how far the recursion goes (depth)
+	// Worst case - depth search goes as deep as the number of nodes
 	public void depthSearch(Graph<Integer> graph, int start, Set<Integer> visited) {
 		visited.add(start);
 		System.out.println(start + " ");
@@ -60,7 +68,14 @@ public class SearchDemo {
 			}
 		}
 	}
-	
+	// Time complexity
+	// O(Nodes + Connections) [O(V+E)]
+	// Will visit every node at each level before moving to the next level
+	// Worst case - will traverse every level and each node of the graph
+	// Space complexity
+	// O(Nodes) [O(V)]
+	// Depends on the max number of nodes in the queue at any given time
+	// Worst case - breadth search visits every node in the graph
 	public void breadthSearch(Graph<Integer> graph, int start) {
 		Queue<Integer> queue = new LinkedList<>();
 		Set<Integer> visited = new HashSet<>();
@@ -88,13 +103,13 @@ class Graph<T> {
 	public Graph() {
 		this.adjacencyList = new HashMap<>();
 	}
-	
+	// O(n) or O(V)
 	public void addNode(T v) {
 		if(!adjacencyList.containsKey(v)) {
 			adjacencyList.put(v, new ArrayList<>());
 		}
 	}
-	
+	// O(n) or O(V)
 	public void addConnection(T v1, T v2) {
 		if(adjacencyList.containsKey(v1) && adjacencyList.containsKey(v2)) {
 			adjacencyList.get(v1).add(v2);
@@ -103,25 +118,25 @@ class Graph<T> {
 			System.out.println("Both nodes must exist to form a connection");
 		}
 	}
-	
+	// O(n) or O(V)
 	public void removeConnection(T v1, T v2) {
 		if(adjacencyList.containsKey(v1) && adjacencyList.containsKey(v2)) {
 			adjacencyList.get(v1).remove(v2);
 			adjacencyList.get(v2).remove(v1);
 		}
 	}
-	
+	// O(n) or O(V)
 	public List<T> getFriends(T v) {
 		if (!adjacencyList.containsKey(v)) {
 			throw new RuntimeException("Node " + v + " not found in the graph.");
 		}
 		return adjacencyList.get(v);
 	}
-	
+	// O(n) or O(V)	
 	public boolean isConnected(T v1, T v2) {
 		return adjacencyList.get(v1).contains(v2);
 	}
-	
+	// O(n) or O(V)
 	public int getNumberOfNodes() {
 		return adjacencyList.keySet().size();
 	}

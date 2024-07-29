@@ -7,14 +7,31 @@
 
 - SQL Queries
   - Syntax
+    - SELECT
+      - DISTINCT
+      - FROM
+      - WHERE
+      - LIMIT ... OFFSET
   - Data Types
+  - Logic operators (`<` `>` etc. AND OR NOT BETWEEN IN)
+  - [built-in functions](https://dev.mysql.com/doc/refman/8.4/en/built-in-function-reference.html)
+
+  - Group by and having logic
+      - Aggregates COUNT, MAX, MIN, SUM
+  - Join
+      - AND OR NOT BETWEEN IN
 
 - Intro to Relational Databases
   - Tables, columns, rows
   - Relationships
     - Primary Keys
     - Foreign Keys
+    - cardinality
+      - one-to-one
+      - many-to-many
+      - one-to-many and many-to-one
   - Normalization
+  - Joins
 
 ## Relational Databases
 
@@ -65,5 +82,13 @@ Once you have MySQL server and MySQL workbench and some sample data installed, o
 
 ## Data Types
 
-- 
+- (See sql file with notes)
+
+## Normalization
+
+- (See excell sheet with notes)
+
+## Joins
+
+![Joins Venn Diagram](./JOINS.jpg)
 

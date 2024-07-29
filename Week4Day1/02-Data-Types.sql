@@ -50,7 +50,15 @@ Booleans
 
 1. TINYINT(1)   - use one bit (0 or 1)
 
-    
+Date/Time:
 
-
+1. DATE (YYYY-MM-DD)                   ex: 
+2. TIME (HH:MM:SS)                     ex: 
+3. DATETIME (YYYY-MM-DD HH:MM:SS)      ex:
+ 4. TIMESTAMP (YYYYMMDDHHMMSS)         ex:
+5. YEAR
+	- 2 Digits ranges from 70 to 69 where 70 is 1970 and 69 is 2069
+    - 4 Digits allows me to enter the year of my choosing
+       1969 or 1869 etc.
 */
+

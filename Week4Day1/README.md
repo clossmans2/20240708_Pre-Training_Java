@@ -35,7 +35,7 @@
 To install MySQL, we will need
 - MySQL Server (database server)
 - MySQL Workbench (GUI tool)
-- Example data
+- Example data [https://dev.mysql.com/doc/index-other.html](https://dev.mysql.com/doc/index-other.html)
 
 Downloads: 
 [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
@@ -47,6 +47,8 @@ Instructions:
 - The MySQL Installer will also install MySQL Workbench as one of the products to install (It is selected by default)
 
 [Navigating the MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-sql-editor-query-panel.html)
+
+
 
 
 ## SQL Select Statements Syntax

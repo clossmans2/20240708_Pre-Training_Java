@@ -35,8 +35,12 @@
 To install MySQL, we will need
 - MySQL Server (database server)
 - MySQL Workbench (GUI tool)
-- Example data 
+- Example data
 
+Downloads: 
+[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
+
+Instructions:
 [Installation instructions](https://dev.mysql.com/doc/refman/8.4/en/installing.html)
 
 - Note, we will be downloading the LTS (Long Term Support) version.

@@ -2,19 +2,23 @@
 
 ## SQL Topics Covered
 
-- Intro to SQL
+- Intro to SQL and MySQL
+  - MySQL Install/Setup
+
+- SQL Queries
+  - Syntax
+  - Data Types
+
 - Intro to Relational Databases
   - Tables, columns, rows
   - Relationships
     - Primary Keys
     - Foreign Keys
   - Normalization
-- Intro to MySQL
-  -x- MySQL Install/Setup
-- SQL Queries
-  - Syntax
-  - Data Types
 
+## Relational Databases
+
+- Store data in tables with columns and rows
 
 ## Intro to SQL
 
@@ -42,23 +46,24 @@
 To install MySQL, we will need
 - MySQL Server (database server)
 - MySQL Workbench (GUI tool)
-- Example data [https://dev.mysql.com/doc/index-other.html](https://dev.mysql.com/doc/index-other.html)
+- Example data 
 
-Downloads: 
-[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
+Use the below links:
+- Downloads [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
+  - Note, we will be downloading the LTS (Long Term Support) version.
+  - The MySQL Installer will also install MySQL Workbench as one of the products to install (It is selected by default)
+  - Installation Intructions [Installation instructions](https://dev.mysql.com/doc/refman/8.4/en/installing.html)
+- Sakila Database [https://dev.mysql.com/doc/index-other.html](https://dev.mysql.com/doc/index-other.html)
 
-Instructions:
-[Installation instructions](https://dev.mysql.com/doc/refman/8.4/en/installing.html)
-
-- Note, we will be downloading the LTS (Long Term Support) version.
-- The MySQL Installer will also install MySQL Workbench as one of the products to install (It is selected by default)
-
-[Navigating the MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-sql-editor-query-panel.html)
-
-
+Once you have MySQL server and MySQL workbench and some sample data installed, open the MySQL Workbench and explore:
+- [Navigating the MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-sql-editor-query-panel.html)
 
 
 ## SQL Select Statements Syntax
 
+- Docs
+
 ## Data Types
+
+- 
 

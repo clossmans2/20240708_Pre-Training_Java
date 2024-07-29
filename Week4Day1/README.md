@@ -10,7 +10,7 @@
     - Foreign Keys
   - Normalization
 - Intro to MySQL
-  - MySQL Install/Setup
+  -x- MySQL Install/Setup
 - SQL Queries
   - Syntax
   - Data Types
@@ -18,17 +18,24 @@
 
 ## Intro to SQL
 
-- SQL stands for ____________
+- SQL stands for structured query language
+  - used to be called SEQL structured English query language
 
-- SQL is pronounced ____________
+- SQL is pronounced "es-queue-el" or "sequel"
 
-- SQL was invented by ____________
+- SQL was invented by Edgar Codd in the 1970s
 
-- SQL syntax is defined by ____________ and has evolved since _______ to the ______ version still used today
+- SQL syntax is defined by ANSI/ISO and has evolved since 1986 to the 2003 version still used today
+  - different dialects for each vendor's relational database implementation
 
 ## Intro to MySQL
 
 [About MySQL](https://dev.mysql.com/doc/refman/8.4/en/what-is-mysql.html)
+
+- RDBMS = relational database management system
+- named after the daughter of the the guy who built-it (My)
+- 2009 purchased by Oracle
+  - the guy who built-it left MySQL and created MariaDB (named after his second daughter Maria)
 
 ## MySQL Install/Setup Resources
 
